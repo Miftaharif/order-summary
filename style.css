@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 560px;
+    max-width: 380px;
+    position: relative;
+    margin: 90px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.wrapper {
+    position: absolute;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 380px;
+    border-radius: 15px 15px 0 0;
+}
+
+.text {
+    margin: auto 35px;
+}
+
+.text > p {
+    color: hsl(224, 23%, 55%);
+}
+
+.Order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%, 0.3);
+    border-radius: 15px;
+    margin: 0px 40px 30px 40px;
+    padding: 0 10px;
+}
+
+.Order > .order-pay {
+    margin: auto 15px;
+} 
+
+.order-pay > p {
+    font-weight: 700;
+}
+
+.order-pay span {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+ .change {
+    padding-left: 60px;
+ }
+.change > P > a {
+    color: hsl(245, 75%, 52%);
+}
+.change > p > a:active {
+    color: hsl(245, 75%, 52%, .6);
+ }
+ 
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-pay {
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 30px 20px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 2px 10px 10px hsl(223, 47%, 23%, 0.3);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.btn-pay:active {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%, 0.8);
+}
+
+.btn-cancel {
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 30px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 17px;
+    background-color: white;
+}
+
+.btn-cancel:active {
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+}
+
+
+ 
